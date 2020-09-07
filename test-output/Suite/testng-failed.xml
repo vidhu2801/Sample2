@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="hrj5623"/>
+    <parameter name="productname" value="iphone"/>
+    <parameter name="username" value="vidhya"/>
+    <classes>
+      <class name="org.dataprovider.ParameterTestng">
+        <methods>
+          <include name="StartTime"/>
+          <include name="testCase" invocation-numbers="0"/>
+          <include name="endTime"/>
+          <include name="quitBroswer"/>
+          <include name="launchbroswer"/>
+        </methods>
+      </class> <!-- org.dataprovider.ParameterTestng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
